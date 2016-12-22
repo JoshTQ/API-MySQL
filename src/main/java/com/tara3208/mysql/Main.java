@@ -37,7 +37,7 @@ public class Main extends JavaPlugin {
         hikariDataSource.setDataSourceClassName("com.mysql.jdbc.jdbc2.optional.MysqlDataSource");
         hikariDataSource.setMaximumPoolSize(10);
         hikariDataSource.addDataSourceProperty("serverName", "www.example.com");
-        hikariDataSource.addDataSourceProperty("port", "3306");
+        hikariDataSource.addDataSourceProperty("port", 3306);
         hikariDataSource.addDataSourceProperty("databaseName", "example");
         hikariDataSource.addDataSourceProperty("user", "example");
         hikariDataSource.addDataSourceProperty("password", "example");
